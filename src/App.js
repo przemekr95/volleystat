@@ -1,10 +1,12 @@
-
 import './App.css';
+import Description from './components/description/Description';
+import Scoreboard from './components/scoreboard/Scoreboard';
 
 function App() {
   return (
-    <div className="App">
-<h1>TEST</h1>
+    <div className="wrapper">
+      <Scoreboard/>
+      <Description/>
     </div>
   );
 }
