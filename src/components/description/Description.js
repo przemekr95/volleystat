@@ -5,12 +5,13 @@ const Description = () => {
     return(
         <>
             <section className="desc-wrapper">
-                <h2>TeamA</h2>
+                <h2>How to use:</h2>
+                <h3>TeamA</h3>
                 <p>Attack: q</p>
                 <p>Block: w</p>
                 <p>Serve: e</p>
                 <p>Opponent error: r</p>
-                <h2>TeamB</h2>
+                <h3>TeamB</h3>
                 <p>Attack: y</p>
                 <p>Block: u</p>
                 <p>Serve: i</p>
