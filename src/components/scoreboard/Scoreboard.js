@@ -176,26 +176,36 @@ const Scoreboard = () => {
     return(
         <>
             <section className="score-wrapper">
+                <div className="title-box">
+                    <h1>VolleyStat</h1>
+                    <p>by Przemek Rura</p>
+                </div>
                 <div className="result-box">
                     <div className="flex">
-                        <p className="sets">{sets.teamA}</p><p className="team">TeamA</p><p>:</p><p className="team">TeamB</p><p className="sets">{sets.teamB}</p>
+                        <p className="points">{points.teamA}</p>
+                        <p className="sets">{sets.teamA}</p><p className="team">Player A1 / Player A2</p><p>:</p><p className="team">Player A1 / Player A2</p><p className="sets">{sets.teamB}</p>
+                        <p className="points">{points.teamB}</p>
                     </div>
-                    <div className="flex">
-                        <p>{points.teamA}</p><p>:</p><p>{points.teamB}</p>
+                </div>
+                <div className="order-box">
+                    <div className="order-text">
+                            <p>Player A1 / Player A2</p>
+                            <p>Player B1 / Player B2</p>
                     </div>
+                        {pointsOrderList}
                 </div>
 
                 <div className="pitch-box">
                     <div className="pitch">
                         <div className="player-box">
-                            <h3>A1</h3>
+                            <h3>Player A1</h3>
                             <p>Attacks(q): {teamA1.attack}</p>
                             <p>Blocks(w): {teamA1.block}</p>
                             <p>Aces(e): {teamA1.ace}</p>
                             <p>Errors(r): {teamA1.error}</p>
                         </div>
                         <div className="player-box">
-                            <h3>A2</h3>
+                            <h3>Player A2</h3>
                             <p>Attacks(a): {teamA2.attack}</p>
                             <p>Blocks(s): {teamA2.block}</p>
                             <p>Aces(d): {teamA2.ace}</p>
@@ -204,14 +214,14 @@ const Scoreboard = () => {
                         </div>
                         <div className="pitch">
                             <div className="player-box">
-                                <h3>B1</h3>
+                                <h3>Player B1</h3>
                                 <p>Attacks(y): {teamB1.attack}</p>
                                 <p>Blocks(u): {teamB1.block}</p>
                                 <p>Aces(i): {teamB1.ace}</p>
                                 <p>Errors(o): {teamB1.error}</p>
                             </div>
                             <div className="player-box">
-                                <h3>B2</h3>
+                                <h3>Player B2</h3>
                                 <p>Attacks(h): {teamB2.attack}</p>
                                 <p>Blocks(j): {teamB2.block}</p>
                                 <p>Aces(k): {teamB2.ace}</p>
@@ -219,14 +229,6 @@ const Scoreboard = () => {
                             </div>
                         </div>
                     </div>
-
-                <div className="order-box">
-                    <div className="order-text">
-                            <p>TeamA</p>
-                            <p>TeamB</p>
-                    </div>
-                        {pointsOrderList}
-                </div>
             </section>
             </>
     )

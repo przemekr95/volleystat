@@ -3,17 +3,37 @@
     flex-direction: column
     background-color: #f5f6fa
     align-items: center
-    justify-content: space-evenly
+    justify-content: flex-start
     min-height: 100vh
+
+.title-box
+    background-color: #0c2461
+    width: 100%
+    color: #f5f6fa
+    text-align: center
+
+.title-box h1
+    font-weight: lighter
+    font-size: 40px
+    letter-spacing: 2px
+
+.title-box p
+    margin-top: 0
+    margin-right: 10px
+    text-align: end
 
 .result-box
     display: flex
     flex-direction: column
     align-items: center
+    width: 700px
     margin: 10px
+    font-size: 20px
 
 .flex
     display: flex
+    justify-content: space-evenly
+    width: 100%
 
 .flex p
     margin: 0
@@ -22,6 +42,12 @@
 .sets
     font-weight: bold
     color: #b71540
+    border: solid 1px #b71540
+
+.points
+    font-weight: bold
+    color: #0c2461
+    border: solid 1px #0c2461
 
 .pitch-box
     display: flex
@@ -60,7 +86,13 @@
 i.top
     display: flex
     align-items: flex-start
+    color: #0c2461
 
 i.bottom
     display: flex
     align-items: flex-end
+    color: #0c2461
+
+@media (max-width: 1250px)
+    .player-box
+        font-size: 11px
