@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/volleystat/static/css/main.db1832f0.chunk.css",
-    "main.js": "/volleystat/static/js/main.2772dd33.chunk.js",
-    "main.js.map": "/volleystat/static/js/main.2772dd33.chunk.js.map",
+    "main.js": "/volleystat/static/js/main.e2ed2da2.chunk.js",
+    "main.js.map": "/volleystat/static/js/main.e2ed2da2.chunk.js.map",
     "runtime-main.js": "/volleystat/static/js/runtime-main.b625d09c.js",
     "runtime-main.js.map": "/volleystat/static/js/runtime-main.b625d09c.js.map",
     "static/js/2.37065549.chunk.js": "/volleystat/static/js/2.37065549.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.b625d09c.js",
     "static/js/2.37065549.chunk.js",
     "static/css/main.db1832f0.chunk.css",
-    "static/js/main.2772dd33.chunk.js"
+    "static/js/main.e2ed2da2.chunk.js"
   ]
 }
