@@ -183,7 +183,7 @@ const Scoreboard = () => {
                 <div className="result-box">
                     <div className="flex">
                         <p className="points">{points.teamA}</p>
-                        <p className="sets">{sets.teamA}</p><p className="team">Player A1 / Player A2</p><p>:</p><p className="team">Player A1 / Player A2</p><p className="sets">{sets.teamB}</p>
+                        <p className="sets">{sets.teamA}</p><p className="team">Player A1 / Player A2</p><p>:</p><p className="team">Player B1 / Player B2</p><p className="sets">{sets.teamB}</p>
                         <p className="points">{points.teamB}</p>
                     </div>
                 </div>
