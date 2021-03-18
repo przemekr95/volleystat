@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/volleystat/static/css/main.629459ba.chunk.css",
-    "main.js": "/volleystat/static/js/main.63096670.chunk.js",
-    "main.js.map": "/volleystat/static/js/main.63096670.chunk.js.map",
+    "main.css": "/volleystat/static/css/main.db1832f0.chunk.css",
+    "main.js": "/volleystat/static/js/main.2772dd33.chunk.js",
+    "main.js.map": "/volleystat/static/js/main.2772dd33.chunk.js.map",
     "runtime-main.js": "/volleystat/static/js/runtime-main.b625d09c.js",
     "runtime-main.js.map": "/volleystat/static/js/runtime-main.b625d09c.js.map",
     "static/js/2.37065549.chunk.js": "/volleystat/static/js/2.37065549.chunk.js",
     "static/js/2.37065549.chunk.js.map": "/volleystat/static/js/2.37065549.chunk.js.map",
     "index.html": "/volleystat/index.html",
-    "static/css/main.629459ba.chunk.css.map": "/volleystat/static/css/main.629459ba.chunk.css.map",
+    "static/css/main.db1832f0.chunk.css.map": "/volleystat/static/css/main.db1832f0.chunk.css.map",
     "static/js/2.37065549.chunk.js.LICENSE.txt": "/volleystat/static/js/2.37065549.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b625d09c.js",
     "static/js/2.37065549.chunk.js",
-    "static/css/main.629459ba.chunk.css",
-    "static/js/main.63096670.chunk.js"
+    "static/css/main.db1832f0.chunk.css",
+    "static/js/main.2772dd33.chunk.js"
   ]
 }
